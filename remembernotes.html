@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remember Notes</title>
+    <link rel="stylesheet" href="remembernotes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head1">
+        <h2>Remember Notes</h2>
+        <p>Here you save all your book notes or important notes with one click</p>
+    </div>
+    <div class="catch">
+        <div class="sample">
+            <h4>book title</h4>
+            <p class="bo">chapters</p>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur vitae ab quo deleniti ipsam expedita, explicabo quam placeat aliquam, consectetur similique quaerat. Ab iusto incidunt at soluta enim modi.</p>
+            <button class="btn" onclick="remele(event)">delete</button>
+        </div>
+    </div>
+    
+    <div class="bag"></div>
+    <div class="form">
+        <h2>Remember Notes</h2>
+        <form >
+            <input type="text" placeholder="title" id="title">
+            <input type="text" placeholder="chapters" id="chapter">
+            <textarea placeholder="description" id="discription"></textarea>
+            <button id="add">ADD</button>
+            <button id="cancel">CANCEL</button>
+        </form>
+    </div>
+    <button id="pluss">+</button>
+    <script src="remembernotes.js"></script>
+</body>
+</html>
