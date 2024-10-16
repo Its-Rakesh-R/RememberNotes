@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-color:ghostwhite
+    background-color:black
 }
 .head1{
     background-color: tomato;
@@ -12,7 +12,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px white;
 }
 .catch{
     
@@ -24,7 +24,7 @@ body{
     background-color: steelblue;
     color: snow;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px white;
     padding: 20px;
     vertical-align: top;
     margin: 10px;
